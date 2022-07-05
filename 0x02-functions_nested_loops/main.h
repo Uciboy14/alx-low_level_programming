@@ -1,11 +1,15 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
- * _putchar - replicate of putchar function
- * Return: void
+ * File: main.h
+ * Auth: Emezi Uchechi David
+ * Desc: Header file containing declarations for all 
+ * functions used in 0x02-functions_nested_loops dire
+ * ctory
  */
-void _putchar(char ch)
-{
-	putchar(ch);
-}
 
+int _putchar(char ch);
+void print_alphabet(void);
+
+#endif
