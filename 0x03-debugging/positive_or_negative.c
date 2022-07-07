@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random number to int
+ * main - assigns a random number to int n everytime
  * it executes, and prints it
- * @n: the int to check
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 void positive_or_negative(int i)
 {
@@ -14,10 +13,12 @@ void positive_or_negative(int i)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
+	if (i > 0)
 		printf("%d is positive\n", n);
 	else if (i == 0)
 		printf("%d is zero\n", i);
-	else if (n < 0)
+	else if (i < 0)
 		printf("%d is negative\n", n);
+	/* return (0); */
 }
+
