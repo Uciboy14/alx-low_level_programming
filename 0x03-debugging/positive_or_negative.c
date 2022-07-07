@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random number to int n everytime
+ * positive_or_negative - assigns a random number to int n everytime
  * it executes, and prints it
+ * @n: the int to check
  * Return: Always 0 (Success)
  */
 void positive_or_negative(int i)
