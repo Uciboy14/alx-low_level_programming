@@ -3,4 +3,5 @@
 
 int _isupper(char c);
 int _isdigit(char);
+int mul(int, int);
 #endif
