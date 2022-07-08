@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul - multiply to intergers 
+ * mul - multiply two intergers
  * @a: int to be multiplied
  * @b: int to be multiplied
  * Return: the result of the operation
