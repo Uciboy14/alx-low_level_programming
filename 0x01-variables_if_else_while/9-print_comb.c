@@ -4,7 +4,7 @@
  * main - all possiblee combinations of single-digit
  * Return: Always Success (0)
  */
-int main (void)
+int main(void)
 {
 	int n;
 
