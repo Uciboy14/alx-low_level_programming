@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - searches a string for any of a set of 
+ * _strpbrk - searches a string for any of a set of
  * bytes
  * @s: string to search
  * @accept: string containing the byte to look for
@@ -10,7 +10,7 @@
  * Return: pointer to the byte in s that matches on or
  * NULL if no such byte is found.
  */
- char *_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
 
