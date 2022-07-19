@@ -5,12 +5,12 @@
  * @s: string to evaluatee
  * @accept: string containing the list of characters
  *
- * Return: the number of byte in the intial segment of
- * s which consist only of bytes from accept.
+ * Return: the number of byte in the initial segment 
+ * of s which consist only of bytes from accept.
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i,j, f, flag;
+	int i, j, f, flag;
 	
 	f = 0;
 
