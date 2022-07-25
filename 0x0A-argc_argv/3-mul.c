@@ -13,8 +13,7 @@ int _atoi(char *s);
 int main(int argc, char *argv[])
 {
 	int a, b, c;
-	
-	/* if the input isn't two intgers */
+
 	if (argc != 3)
 	{
 		printf("Error\n");
