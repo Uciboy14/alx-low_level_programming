@@ -18,19 +18,13 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		/* if the input isn't numbers */
-		if ( (a >= 0 || a <= 9) && (b >= 0 || b <= 9))
-		{
-			a  = _atoi(argv[1]);
-			b  = _atoi(argv[2]);
-			c  = a * b;
-			printf("%d\n", c);
-		}
 
-		return (0);
-	}
+	a  = _atoi(argv[1]);
+	b  = _atoi(argv[2]);
+	c  = a * b;
+	printf("%d\n", c);
+
+	return (0);
 }
 
 	
