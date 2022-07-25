@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
  * _atoi - converts string to an integer
  * @s: string to be converted
  *
- * Retrun: the int converted from the string
+ * Return: the int converted from the string
  */
 int _atoi(char *s)
 {
