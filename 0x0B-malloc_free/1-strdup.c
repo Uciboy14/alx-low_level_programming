@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- * _strdup - Returns a pointer to a newly-allocated sp
- * ace in memory
- * containing a copy of the string given as parameter. * @str: The string to be copied.
+ * _strdup - Returns a pointer to a newly-allocated
+ * containing a copy of the string given as
+ * @str: The string to be copied.
  *
- * Return: If str = NULL or insufficient memory 
+ * Return: If str = NULL or insufficient memory
  * is available - NULL.
  * Otherwise - a pointer to the duplicated string.
  */
 char *_strdup(char *str)
 {
-	char *duplicate; 
+	char *duplicate;
 	int index, len = 0;
 
 	if (str == NULL)
@@ -25,7 +25,7 @@ char *_strdup(char *str)
 		return (NULL);
 	for (index = 0; str[index]; index++)
 		duplicate[index] = str[index];
-	
+
 	duplicate[len] = '\0';
 	return (duplicate);
 }
