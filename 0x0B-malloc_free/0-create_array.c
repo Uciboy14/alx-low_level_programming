@@ -1,15 +1,10 @@
-/**
-* File: 0-create_array.c 
-* Auth: Brennan D Baraban
-*/
 #include "main.h"
 #include <stdlib.h>
 
 /**
- * create_array - Creates an array of chars and 
- * initializes it with a specific char.
+ * create_array - Creates an array of chars and
  * @size: The size of the array to be initialized.
- * @c: The specific char to intialize the array with.
+ * @c: The specific char to intialize the.
  *
  * Return: If size == 0 or the function fails - NULL.
  * Otherwise - a pointer to the array.
