@@ -6,7 +6,7 @@
  * _atoi - converts string to an integer
  * @s: string to be converted
  *
- * Retrun: the int converted from the string
+ * Return: the int converted from the string
  */
 int _atoi(char *s)
 {
@@ -48,7 +48,7 @@ int _atoi(char *s)
 }
 
 /**
- * main - prints the minimum number of coins to make
+ * main - prints the minimum number of coins to
  * change for an amount
  * @argc: number of argument
  * @argv: array of argument
@@ -85,6 +85,7 @@ int main(int argc, char *argv[])
 	}
 
 	printf("%d\n", result);
+	
 	return (0);
 }
 
