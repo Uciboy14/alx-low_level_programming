@@ -1,7 +1,3 @@
-/**
- * File: 2-str_concat.c
- * Auth: Brennan D Baraban
- */
 #include "main.h"
 #include <stdlib.h>
 
@@ -11,7 +7,7 @@
  * @s2: The string to be concatenated to s1.
  *
  * Return: If concatenation fails - NULL.
- * Otherwise - a pointer the newly-allocated space in 
+ * Otherwise - a pointer the newly-allocated space
  * memory
  * containing the concatenated strings.
  */
