@@ -8,10 +8,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int fd_r, fd_w, r, a, b;
-	char buf[BUFSIZE];
+	char buf[BUFSIZ];
 
 	if (argc != 3)
 	{
@@ -35,7 +35,7 @@ int main(int argc, char argv[])
 		}
 	}
 	if (r < 0)
-		dprintf(STDERROR_FILENO, "Error: Can't read file from %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read file from %s\n", argv[1]);
 	exit(98);
 	a = close(fd_r);
 	b = close(fd_w);
